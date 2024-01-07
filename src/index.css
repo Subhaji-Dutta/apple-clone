@@ -1,0 +1,288 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
+}
+
+/* Home Section */
+
+.card-bg-img {
+  height: 550px;
+  height: 550px;
+  object-fit: cover;
+}
+
+#trading-iphones {
+  position: absolute;
+  top: 2005px;
+  left: 314px;
+}
+
+#trading-link {
+  position: absolute;
+  top: 2074px;
+  left: 354px;
+}
+
+#ipad-text {
+  position: absolute;
+  top: 2567px;
+  left: 353px;
+}
+
+#ipad-links {
+  position: absolute;
+  top: 2638px;
+  left: 372px;
+}
+
+#mother-text {
+  position: absolute;
+  top: 3141px;
+  left: 322px;
+}
+
+#mother-link {
+  position: absolute;
+  top: 3287px;
+  left: 409px;
+}
+
+#dev-conference-text {
+  position: absolute;
+  top: 2370px;
+  left: 1243px;
+}
+
+#dev-link {
+  position: absolute;
+  top: 2469px;
+  left: 1382px;
+}
+
+#small-bus-text {
+  position: absolute;
+  top: 2571px;
+  left: 1316px;
+}
+
+#small-bus-link {
+  position: absolute;
+  top: 2671px;
+  left: 1383px;
+}
+
+#apple-card-text {
+  position: absolute;
+  top: 3121px;
+  left: 1289px;
+}
+
+#card-links {
+  position: absolute;
+  top: 3226px;
+  left: 1322px;
+}
+
+.fine-print {
+  width: 60%;
+
+}
+
+hr {
+  color: grey;
+  height: 5px;
+  width: 50%;
+}
+
+.footer-links-container a:hover {
+  text-decoration: underline;
+}
+
+.footer-links-container li {
+  font-size: .875rem;
+  line-height: 1rem;
+}
+
+@media screen and (max-width: 1440px) {
+  .home-title img,
+  .home-new-phone-card img {
+    right: 775px;
+  }
+
+  .home-title-text {
+    left: 568px;
+  }
+
+  .home-title-links {
+    left: 615px;
+  }
+
+  #watch-img {
+    left: -777px;
+  }
+
+  .phone-card-text {
+    left: 617px;
+  }
+
+  .phone-card-links {
+    left: 619px;
+  }
+
+  .watch-card-title-text {
+    left: 617px;
+  }
+
+  .watch-card-links {
+    left: 619px;
+  }
+
+  #trading-iphones {
+    left: 215px;
+  }
+
+  #trading-link {
+    left: 250px;
+  }
+  
+  #ipad-text {
+    left: 232px;
+  }
+
+  #ipad-links {
+    left: 250px;
+  }
+
+  #mother-text {
+    left: 215px;
+  }
+
+  #mother-link {  
+    left: 296px;
+  }
+
+  #dev-conference-text {
+    left: 890px;
+  }
+
+  #dev-link {
+    left: 1033px;
+  }
+
+  #small-bus-text {
+    left: 980px;
+  }
+
+  #small-bus-link {
+    left: 1033px;
+  }
+
+  #apple-card-text {
+    left: 950px;
+  }
+
+  #card-links {
+    left: 980px;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .home-title img {
+    right: 205px
+  }
+
+  .home-title-text {
+    left: 1124px;
+  }
+
+  .home-title-links {
+    left: 1171px;
+  }
+
+  .home-new-phone-card img {
+    right: 215px;
+  }
+
+  .phone-card-text {
+    left: 1171px;
+  }
+
+  .phone-card-links {
+    left: 1184px;
+  }
+
+  #watch-img {
+    left: -233px;
+  }
+
+  .watch-card-title-text {
+    left: 1171px;
+  }
+
+  .watch-card-links {
+    left: 1171px;
+  }
+
+  #trading-iphones {
+    left: 457px;
+  }
+
+  #trading-link {
+    left: 490px;
+  }
+
+  #ipad-text {
+    left: 457px;
+  }
+
+  #ipad-links {
+    left: 490px;
+  }
+
+  #mother-text {
+    left: 457px;
+  }
+
+  #mother-link {
+    left: 536px;
+  }
+
+  #dev-conference-text {
+    left: 1620px;
+  }
+
+  #dev-link {
+    left: 1763px;
+  }
+
+  #small-bus-text {
+    left: 1701px;
+  }
+
+  #small-bus-link {
+    left: 1763px;
+  }
+
+  #apple-card-text {
+    left: 1682px;
+  }
+
+  #card-links {
+    left: 1714px;
+  }
+}
